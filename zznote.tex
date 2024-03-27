@@ -1,28 +1,28 @@
-\documentclass[lang=cn,newtx,10pt,scheme=chinese,pad,twocol]{zznote}
+\documentclass[lang=cn,blue,10pt,scheme=chinese,twocol]{zznote}
 % 
-\title{考研政治葵花宝典}
+% \title{考研政治葵花宝典}
 
-\subtitle{站在命题人视角的真题分析}
+% \subtitle{站在命题人视角的真题分析}
 
-\author{才疏学浅的小熊}
-\institute{青岛大学}
-\date{2024/10/31}
-\version{第一版}
-%\bioinfo{自定义}{信息}
+% \author{才疏学浅的小熊}
+% \institute{青岛大学}
+% \date{2024/10/31}
+% \version{第一版}
+% %\bioinfo{自定义}{信息}
 
-\extrainfo{人生总要做一些无意义的事情,证明自己是有意义的！}
+% \extrainfo{人生总要做一些无意义的事情,证明自己是有意义的！}
 
-\setcounter{tocdepth}{3}
+% \setcounter{tocdepth}{3}
 
-\logo{zz.png}
-\cover{cover.jpg}
+% \logo{zz.png}
+% \cover{cover.jpg}
 
 % 本文档命令
 \usepackage{array}
 \usepackage{subfigure}
 \usepackage{subcaption}
 \usepackage{graphicx}
-
+\usepackage{pdfpages}
 \newcommand{\ccr}[1]{\makecell{{\color{#1}\rule{1cm}{1cm}}}}
 
 % 修改标题页的橙色带
@@ -35,9 +35,12 @@
 
 \begin{document}
 
-\maketitle
 
-\frontmatter
+
+% \maketitle
+\includepdf[pages={1}]{cover1.pdf}
+\includepdf[pages={1}]{cover2.pdf}
+%\frontmatter
 \chapter*{\siyuan 序\;\;\;\;言}
 \markboth{前言}{前言}
 {\siyuanone
@@ -58,7 +61,7 @@
 		\item QQ：1782622988
 	\end{itemize}
 
-	希望读者可以好好研读此书，尤其是第一部分和第五部分。在做题过程中遇到书上没有的命题手法，也可以联系我，或者自行补充到GitHub上面。
+	我将本书的源码放到了Github上面，\href{https://github.com/xubenshan/zznote}{点击这里}。希望读者可以好好研读此书，尤其是第一部分和第五部分。在做题过程中遇到书上没有的命题手法，也可以联系我，或者自行补充。
 
 	如果你喜欢我的笔记，你还可以选择捐赠以表达你对笔记和我的支持。
 	\begin{figure}[htbp]
@@ -82,7 +85,7 @@
 
 \mainmatter
 
-\chapter{研究真题——选择题命题手法}
+\chapter{选择题命题手法}
 
 
 在备考的过程中，我做了10-23的真题，感觉里面的选项设置很有规律可循，大致就那几种形式，但我也没有系统的总结过。前几天对24真题进行了复盘，发现这种感觉极其强烈，掌握了命题规律，那选择题拿高分自然不在话下。
@@ -984,7 +987,7 @@
 \begin{enumerate}
 
 	\item {关于视频：政治马原徐涛视频可以看，毛中特习思想思修史纲不要看，单纯浪费时间。腿姐技巧班不用看，可以看一些up整理的技巧班笔记，做上面的题。总之政治少看课。}
-	\item {关于习题：1000题做马原史纲即可，不用全做。最多刷两遍，再刷没有意义。余峰900也很不错，可以全做，适合复习完一轮之后再做。}
+	\item {关于习题：1000题做马原史纲即可，不用全做。最多刷两遍，再刷没有意义。余峰500也很不错，可以全做，适合复习完一轮之后再做。}
 	\item {关于手册：其实我个人还是推荐买精讲精练，知识点很全，手册我不推荐，有些知识点没覆盖到（真题有时候考的很细），非要推荐的话，我选择苏一的背诵手册。}
 	\item {关于各种总结：我推荐研木易的总结，会议著作土地文件史纲很爱考，研木易总结的很全。}
 	\item {关于帽子题：关注这些帽子，都是真题常考的：关键，重点，根本，标志，着力点，首要，突出，决定。每天早上翻一翻就可以了。}
@@ -1466,6 +1469,8 @@
 
 
 \chapter{主观题利器——答题逻辑}
+
+现在市面上缺少分析主观题的书籍。大家也不是很在意主观题，觉得背一下肖四就可以了。这个想法不能说错，只能说存在问题。为了让大家可以拿到理想的主观题分数。我觉得很有必要去研究下官方所给的真题参考答案，形成属于自己的他一套答题逻辑。
 
 \section{官方参考答案分析}
 
